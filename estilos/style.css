@@ -44,6 +44,21 @@ header > menu > ul > li > a:hover {
     background-color: #4d1d02;
     font-weight: bolder;
 }
+div#natureza {
+    display: inline-block;
+    background-image: url('/imagens/pexels-arthur-ogleznev-1296265.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+div#natureza > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 
 .logo {
     width: 25px;
