@@ -45,10 +45,18 @@ header > menu > ul > li > a:hover {
     font-weight: bolder;
 }
 section#ambiente {
-    
+    height: 750px;
+    background-image: linear-gradient(to right, rgba(144, 238, 144, 0.822), transparent);
+}
+section#ambiente > h2 {
+    color: darkgreen;
+    font-weight: bolder;
+    padding: 20px;
 }
 section#ambiente > p {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 section > h1 {
     text-align: center;
@@ -58,6 +66,7 @@ section > h1 {
 }
 section > h2 {
     padding: 10px;
+    text-align: center;
 }
 div#natureza {
     display: inline-block;
@@ -73,6 +82,9 @@ div#natureza > p {
     color: white;
     text-align: center;
     padding: 10px;
+}
+footer > h2 {
+    text-align: center;
 }
 
 .logo {
