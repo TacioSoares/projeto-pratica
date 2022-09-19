@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* 
+
+marrom escuro #260B01 
+marrom claro #732C02
+cinza #A68F7B
+bege #D9843B
+vermelho #F80002
+
+*/
+@font-face {
+    font-family: 'estrela';
+    src: url('/fonte/FrederickatheGreat-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: linear-gradient(to bottom, #260B01, #9c3b03);
+    color: white;
+}
+header > menu > h1 {
+    font-family: 'estrela';
+    text-align: center;
+    font-size: 2.5em;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+header > menu > ul > li {
+    text-align: center;
+}
+header > menu > ul > li > a {
+    display: inline-block;
+    width: 160px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+header > menu > ul > li > a:hover {
+    background-color: #4d1d02;
+    font-weight: bolder;
+}
+
+.logo {
+    width: 25px;
+    margin-left: 30px;
+}
+.youtube {
+    width: 28px;
+    margin-left: 30px;
+}
+.pessoas {
+    border-radius: 50%;
+}
