@@ -1,0 +1,22 @@
+#ibusca {
+    margin-bottom: 20px;
+}
+
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+thead {
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+td {
+    border: 1px solid gray;
+    padding: 5px;
+    width: 70px;
+}
+.invisivel {
+    display: none;
+}

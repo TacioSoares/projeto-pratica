@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treiando expressões regulares</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <label>Buscar:</label><br>
+        <input type="text" name="busca" id="ibusca" placeholder="Busque por um nome">
+        <table>
+            <thead>
+                <tr>
+                    <td>Nome</td>
+                    <td>Idade</td>
+                    <td>Sexo</td>
+                    <td>Cidade</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="cidadao">
+                    <td class="nome">Júlio</td>
+                    <td>34</td>
+                    <td>Masculino</td>
+                    <td>Camaçari</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Henrique</td>
+                    <td>37</td>
+                    <td>Masculino</td>
+                    <td>Feira de Santana</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Marcela</td>
+                    <td>44</td>
+                    <td>Feminino</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Douglas</td>
+                    <td>18</td>
+                    <td>Masculino</td>
+                    <td>Niterói</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Michele</td>
+                    <td>25</td>
+                    <td>Feminino</td>
+                    <td>Ilhéus</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Antonieta</td>
+                    <td>39</td>
+                    <td>Feminino</td>
+                    <td>Itú</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Laura</td>
+                    <td>30</td>
+                    <td>Feminino</td>
+                    <td>Botucatu</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Jorge</td>
+                    <td>28</td>
+                    <td>Masculino</td>
+                    <td>Nilópolis</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Joana</td>
+                    <td>27</td>
+                    <td>Feminino</td>
+                    <td>Iperó</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Júlia</td>
+                    <td>19</td>
+                    <td>Feminino</td>
+                    <td>Salvador</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Mendes</td>
+                    <td>30</td>
+                    <td>Masculino</td>
+                    <td>Simões Filho</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Danilo</td>
+                    <td>16</td>
+                    <td>Masculino</td>
+                    <td>Foz do Iguaçu</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Jéssica</td>
+                    <td>27</td>
+                    <td>Feminino</td>
+                    <td>Lauro de Freitas</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">João</td>
+                    <td>39</td>
+                    <td>Masculino</td>
+                    <td>Guarapari</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Luíza</td>
+                    <td>26</td>
+                    <td>Feminino</td>
+                    <td>Caicó</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Diego</td>
+                    <td>49</td>
+                    <td>Masculino</td>
+                    <td>Macaé</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Miguel</td>
+                    <td>25</td>
+                    <td>Masculino</td>
+                    <td>Curumbá</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Nayara</td>
+                    <td>15</td>
+                    <td>Feminino</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Letícia</td>
+                    <td>30</td>
+                    <td>Feminino</td>
+                    <td>Fortaleza</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Márcio</td>
+                    <td>48</td>
+                    <td>Masculino</td>
+                    <td>Ribeirão das Neves</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Michel</td>
+                    <td>29</td>
+                    <td>Masculino</td>
+                    <td>Itajaí</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Ángela</td>
+                    <td>39</td>
+                    <td>Feminino</td>
+                    <td>Esteio</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Gustavo</td>
+                    <td>30</td>
+                    <td>Masculino</td>
+                    <td>Palmas</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Denilson</td>
+                    <td>58</td>
+                    <td>Masculino</td>
+                    <td>Uberlândia</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Pedro</td>
+                    <td>32</td>
+                    <td>Masculino</td>
+                    <td>Sorocaba</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Aline</td>
+                    <td>17</td>
+                    <td>Feminino</td>
+                    <td>Natal</td>
+                </tr>
+                <tr class="cidadao">
+                    <td class="nome">Érica</td>
+                    <td>36</td>
+                    <td>Feminino</td>
+                    <td>Votrantim</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="expreg.js"></script>
+</body>
+</html>
