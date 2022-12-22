@@ -1,7 +1,7 @@
 var numeros = []
 
 function sortear() {
-    while (numeros.length < 8) {
+    while (numeros.length < 6) {
         var digito = Math.ceil(Math.random()*60)
         if (numeros.indexOf(digito) == -1) {
             numeros.push(digito)
@@ -12,6 +12,7 @@ function sortear() {
     }     
     
 }
+//12-18-30-32-51-52
 
 function adicionarNaTela(numeros) {
     var spans = document.querySelectorAll('.digito')
@@ -20,25 +21,15 @@ function adicionarNaTela(numeros) {
         if (a > b) return 1
         return 0
     })
-    spans[0].innerHTML = numeros[0]
-    spans[1].innerHTML = numeros[1]
-    spans[2].innerHTML = numeros[2]
-    spans[3].innerHTML = numeros[3]
-    spans[4].innerHTML = numeros[4]
-    spans[5].innerHTML = numeros[5]
-    spans[6].innerHTML = numeros[6]
-    spans[7].innerHTML = numeros[7]
+    for (let i = 0; i < spans.length; i++) {
+        spans[i].innerHTML = numeros[i]
+    }
 }
 
 function novoSorteio() {
     var spans = document.querySelectorAll('.digito')
-    spans[0].innerHTML = ''
-    spans[1].innerHTML = ''
-    spans[2].innerHTML = ''
-    spans[3].innerHTML = ''
-    spans[4].innerHTML = ''
-    spans[5].innerHTML = ''
-    spans[6].innerHTML = ''
-    spans[7].innerHTML = ''
+    for (let i = 0; i < spans.length; i++) {
+        spans[i].innerHTML = ''
+    }
     numeros = []
 }
