@@ -57,5 +57,5 @@ h1 {
 .botão:active {
     padding: 2px;
     box-shadow: 0px 0px 0px;
-    transition: 0.2s;
+    transition: 0.1s;
 }
