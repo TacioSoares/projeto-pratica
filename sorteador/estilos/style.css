@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.screen {
+    display: block;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.tela {
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+}
+.digito {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.botão {
+    padding: 4px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.61);
+    margin-top: 5px;
+}
