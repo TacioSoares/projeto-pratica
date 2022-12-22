@@ -31,6 +31,7 @@ h1 {
     background-image: linear-gradient(to bottom, rgb(255, 235, 168), rgb(255, 255, 253));
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.575);
     width: 50vw;
+    height: 80px;
 }
 .digito {
     display: inline-block;
