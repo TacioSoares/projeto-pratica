@@ -1,24 +1,36 @@
 @charset "UTF-8";
-
+* {
+    padding: 0px;
+    margin: 0px;
+}
 .screen {
     display: block;
     text-align: center;
 }
 body {
-    background-image: url();
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../moedas-caindo.png');
+    background-position: center center;
+    background-size: cover;
 }
 h1 {
-    color: white;
+    color: rgb(189, 134, 15);
+    text-shadow: 2px 2px 2px black;
     text-align: center;
 }
 .tela {
     display: block;
+    margin: auto;
     text-align: center;
     border: 1px solid black;
     border-radius: 8px;
     padding: 20px;
     background-image: linear-gradient(to bottom, rgb(255, 235, 168), rgb(255, 255, 253));
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.575);
+    width: 50vw;
 }
 .digito {
     display: inline-block;
